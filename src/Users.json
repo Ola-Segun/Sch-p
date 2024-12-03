@@ -1,0 +1,442 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "middleName": "Ray",
+        "email": "johndoe@gmail.com",
+        "userName": "J.d",
+        "dateOfBirth": "03/04/2002",
+        "userId": 1,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "John Ray Doe",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Billy",
+        "lastName": "Graham",
+        "middleName": "Joe",
+        "email": "billygraham@gmail.com",
+        "userName": "B.G.J",
+        "dateOfBirth": "03/04/2002",
+        "userId": 2,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Billy Joe Graham",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sean",
+        "lastName": "Davis",
+        "middleName": "Collins",
+        "email": "seandavis@gmail.com",
+        "userName": "S.D.C",
+        "dateOfBirth": "03/04/2002",
+        "userId": 3,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sean Collins Davis",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Kola",
+        "lastName": "Dune",
+        "middleName": "Brad",
+        "email": "koladune@gmail.com",
+        "userName": "K.D.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 4,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Kola Brad Dune",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Brayn",
+        "lastName": "Capluno",
+        "middleName": "Kevin",
+        "email": "bryancapluno@gmail.com",
+        "userName": "B.C.K",
+        "dateOfBirth": "03/04/2002",
+        "userId": 5,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Brayn Kelvin Capluno",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Cintia",
+        "lastName": "Alexandra",
+        "middleName": "Brandy",
+        "email": "cintiaalexandra@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Cintia Brandy Alexandra",
+            "lastTransaction": "05/02/2024",            
+            "category": "Staff"
+        }
+    },
+    {
+        "firstName": "Britanny",
+        "lastName": "Soppy",
+        "middleName": "Barbie",
+        "email": "britannysoppy@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Britanny Barbie Soppy",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Justus",
+        "lastName": "Alex",
+        "middleName": "Robert",
+        "email": "justusalex@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Justus Robert Alex",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    },
+    {
+        "firstName": "Sofia",
+        "lastName": "valentino",
+        "middleName": "Brandy",
+        "email": "sofiavalentino@gmail.com",
+        "userName": "S.V.B",
+        "dateOfBirth": "03/04/2002",
+        "userId": 6,
+        "phoneNumber": 80232332323,
+        "matriculationNumber": "SCH4303953024",
+        "schoolName": "First School Ibadan",
+        "state": "Oyo",
+        "account": {
+            "id": 234234994224,
+            "balance": 30000,
+            "name": "Sofia Brandy Valentino",
+            "lastTransaction": "05/02/2024",            
+            "category": "Student"
+        }
+    }
+]

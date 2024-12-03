@@ -1,0 +1,248 @@
+[
+    {
+      "Months": "January",
+      "date": "20/01/2024",
+      "transactions": [
+        {
+          "transactionId": 1,
+          "amount": 3000,
+          "date": "20/01/2024",
+          "time": "10:35 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 2,
+          "amount": 1000,
+          "date": "22/01/2024",
+          "time": "05:15 AM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 3,
+          "amount": 11250,
+          "date": "24/01/2024",
+          "time": "12:20 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 4,
+          "amount": 15000,
+          "date": "27/01/2024",
+          "time": "10:35 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Credit"
+        },
+        {
+          "transactionId": 5,
+          "amount": 7500,
+          "date": "31/01/2024",
+          "time": "03:45 PM",
+          "senderFullName": "Ryan Dean Collins",
+          "receiverFullName": "John Doe Robert",
+          "type": "Credit"
+        }
+      ],
+      "summary": {
+        "totalTransactions": 5,
+        "totalAmount": 37750,
+        "uniqueSenders": ["John Doe Robert", "Ryan Dean Collins"],
+        "uniqueReceivers": ["Sean Ray Briska", "Ryan Dean Collins"]
+      }
+    },
+    {
+      "Months": "February",
+      "date": "05/02/2024",
+      "transactions": [
+        {
+          "transactionId": 6,
+          "amount": 2100,
+          "date": "05/02/2024",
+          "time": "11:10 AM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 7,
+          "amount": 4800,
+          "date": "12/02/2024",
+          "time": "02:20 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 8,
+          "amount": 3000,
+          "date": "14/02/2024",
+          "time": "09:15 AM",
+          "senderFullName": "Ryan Dean Collins",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Credit"
+        },
+        {
+          "transactionId": 9,
+          "amount": 5200,
+          "date": "20/02/2024",
+          "time": "06:50 PM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "John Doe Robert",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 10,
+          "amount": 1300,
+          "date": "24/02/2024",
+          "time": "04:35 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 11,
+          "amount": 7000,
+          "date": "28/02/2024",
+          "time": "08:10 AM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "John Doe Robert",
+          "type": "Credit"
+        }
+      ],
+      "summary": {
+        "totalTransactions": 6,
+        "totalAmount": 23400,
+        "uniqueSenders": ["Sean Ray Briska", "John Doe Robert", "Ryan Dean Collins"],
+        "uniqueReceivers": ["Ryan Dean Collins", "Sean Ray Briska", "John Doe Robert"]
+      }
+    },
+    {
+      "Months": "March",
+      "date": "04/03/2024",
+      "transactions": [
+        {
+          "transactionId": 12,
+          "amount": 1150,
+          "date": "04/03/2024",
+          "time": "12:15 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 13,
+          "amount": 950,
+          "date": "08/03/2024",
+          "time": "10:30 PM",
+          "senderFullName": "Ryan Dean Collins",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Credit"
+        },
+        {
+          "transactionId": 14,
+          "amount": 4500,
+          "date": "11/03/2024",
+          "time": "02:50 PM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "John Doe Robert",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 15,
+          "amount": 7800,
+          "date": "17/03/2024",
+          "time": "06:00 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 16,
+          "amount": 6800,
+          "date": "23/03/2024",
+          "time": "09:15 AM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Credit"
+        }
+      ],
+      "summary": {
+        "totalTransactions": 5,
+        "totalAmount": 21200,
+        "uniqueSenders": ["John Doe Robert", "Ryan Dean Collins", "Sean Ray Briska"],
+        "uniqueReceivers": ["Ryan Dean Collins", "Sean Ray Briska", "John Doe Robert"]
+      }
+    },
+    {
+      "Months": "April",
+      "date": "03/04/2024",
+      "transactions": [
+        {
+          "transactionId": 17,
+          "amount": 5500,
+          "date": "03/04/2024",
+          "time": "03:25 PM",
+          "senderFullName": "Ryan Dean Collins",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 18,
+          "amount": 2200,
+          "date": "10/04/2024",
+          "time": "06:45 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 19,
+          "amount": 450,
+          "date": "14/04/2024",
+          "time": "09:10 AM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "John Doe Robert",
+          "type": "Credit"
+        },
+        {
+          "transactionId": 20,
+          "amount": 8000,
+          "date": "21/04/2024",
+          "time": "01:15 PM",
+          "senderFullName": "John Doe Robert",
+          "receiverFullName": "Sean Ray Briska",
+          "type": "Debit"
+        },
+        {
+          "transactionId": 21,
+          "amount": 9100,
+          "date": "26/04/2024",
+          "time": "11:00 AM",
+          "senderFullName": "Ryan Dean Collins",
+          "receiverFullName": "John Doe Robert",
+          "type": "Credit"
+        },
+        {
+          "transactionId": 22,
+          "amount": 700,
+          "date": "29/04/2024",
+          "time": "08:45 PM",
+          "senderFullName": "Sean Ray Briska",
+          "receiverFullName": "Ryan Dean Collins",
+          "type": "Debit"
+        }
+      ],
+      "summary": {
+        "totalTransactions": 6,
+        "totalAmount": 25950,
+        "uniqueSenders": ["Ryan Dean Collins", "John Doe Robert", "Sean Ray Briska"],
+        "uniqueReceivers": ["Sean Ray Briska", "Ryan Dean Collins", "John Doe Robert"]
+      }
+    }
+  ]

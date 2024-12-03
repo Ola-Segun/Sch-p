@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.intro-content{
+    grid-template-columns: 2fr 1fr;
+}
+
+/* .p-card-body{
+    @apply h-full w-full;
+} */
+
+.p-card-content{
+    @apply h-full w-full grid gap-2
+}
+
+.p-card-body{
+    @apply h-full
+}
+
+.gr-col{
+    grid-template-columns: 1fr 1fr;
+}
+
+.p-menubar{
+    padding: 10px 0px !important;
+}
+
+.p-menubar.p-component.custom-menubar{
+    @apply w-full
+}
+
+.p-menubar-item-link{
+    @apply grid
+}
+
+.p-menubar-item{
+    @apply bg-slate-100 rounded-lg shadow-md
+}
+
+.p-menubar-root-list{
+    /* flex-wrap: nowrap !important; */
+    justify-content: space-evenly !important;
+    width: 100%;
+}
+
+.p-menubar-root-list .my-custom-menuitem .p-menubar-item-content .p-menubar-item-link{
+    display: grid ;
+    font-size: medium;
+    @apply w-[7.5rem]
+}
+
+@media (max-width:430px) {
+    .p-menubar-root-list .my-custom-menuitem .p-menubar-item-content .p-menubar-item-link{
+        @apply w-[7rem]
+    }
+}
+
+.p-menubar-root-list .my-custom-menuitem .p-menubar-item-content .p-menubar-item-link .p-menubar-item-icon{
+    font-size: xx-large;
+}
+
+.confirm-send-icon{
+    font-size: 30px !important;
+}
+
+/*  */
+/* Beneficiaries Buttons */
+.beneficiaries-group .p-menubar-root-list{
+    /* flex-wrap: nowrap !important; */
+    justify-content: space-evenly !important;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.beneficiaries-group .p-menubar-root-list::-webkit-scrollbar{
+    display: none;
+}
+
+.p-menubar.p-component.beneficiaries-buttons{
+    @apply w-fit
+}
+
+.p-menubar-item.beneficiaries-buttons{
+    @apply bg-white rounded-lg shadow-md w-fit
+}
+
+.p-menubar.beneficiaries-buttons{
+    padding: none !important;
+    width: fit-content;
+}
+
+.p-menubar-root-list .beneficiaries-buttons .p-menubar-item-content .p-menubar-item-link{
+    display: grid ;
+    justify-content: center;
+    font-size: medium;
+    @apply w-[5rem]
+}
+
+.p-menubar-root-list .beneficiaries-buttons .p-menubar-item-content .p-menubar-item-link .p-menubar-item-icon{
+    @apply text-3xl text-center
+}
+
+
+/*  */
+/* OtherPaymentForm selectbutton */
+.other-payments .p-selectbutton{
+    width: 100%;
+    /* width: max-content; */
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.other-payments .p-togglebutton-content{
+    @apply grid justify-items-start w-full
+}
+
+.other-payments .p-selectbutton .p-togglebutton {
+    border-radius: 10px !important;
+    @apply w-[6rem] shadow-md;
+}
+
+.other-payments .p-togglebutton.p-togglebutton-checked {
+    @apply !bg-purple-300 text-white;
+}
+
+.other-payments .p-togglebutton.p-togglebutton-checked::before {
+    @apply !bg-primary
+}
+
+.other-payments .p-togglebutton .pi:before {
+    @apply text-xl
+}
+
+.other-payments .p-togglebutton.p-togglebutton-checked .pi:before {
+    @apply !text-white text-xl
+}
+
+/*  */
+/* transaction-btns selectbutton */
+.transaction-btns .p-selectbutton{
+    width: 100%;
+    /* width: max-content; */
+    justify-content: space-between;
+    padding: 5px;
+    @apply gap-4
+}
+
+.transaction-btns .p-togglebutton-content{
+    @apply grid justify-items-start w-full
+}
+
+.transaction-btns .p-selectbutton .p-togglebutton {
+    border-radius: 10px !important;
+    @apply w-[6.8rem] shadow-md !text-gray-400;
+}
+
+.transaction-btns .p-togglebutton.p-togglebutton-checked {
+    @apply !bg-purple-300 !text-white;
+}
+
+.transaction-btns .p-togglebutton.p-togglebutton-checked::before {
+    @apply !bg-primary
+}
+
+.transaction-btns .p-togglebutton .pi:before {
+    @apply text-3xl
+}
+
+.transaction-btns .p-togglebutton.p-togglebutton-checked .pi:before {
+    @apply !text-white text-3xl
+}
+
+/*  */
+/* Beneficiary Group selectbutton */
+.beneficiaries-group .p-selectbutton{
+    /* width: max-content; */
+    justify-content: space-between;
+    @apply gap-4 flex-nowrap 
+}
+
+.beneficiaries-group .p-togglebutton-content{
+    @apply grid justify-items-center w-full
+}
+
+.beneficiaries-group .p-selectbutton .p-togglebutton {
+    border-radius: 10px !important;
+    @apply w-[5rem] shadow-md !text-gray-400 p-3 !bg-slate-50;
+}
+
+.beneficiaries-group .p-togglebutton.p-togglebutton-checked {
+    @apply !bg-purple-300 !text-white;
+}
+
+.beneficiaries-group .p-togglebutton.p-togglebutton-checked::before {
+    @apply !bg-primary
+}
+
+.beneficiaries-group .p-togglebutton .pi:before {
+    @apply text-3xl bg-slate-300 p-2 rounded-full
+}
+
+.beneficiaries-group .p-togglebutton.p-togglebutton-checked .pi:before {
+    @apply !text-white text-3xl bg-purple-400
+}
+
+.beneficiaries-group .p-togglebutton.p-togglebutton-checked .beneficiary-img {
+    @apply bg-purple-300 rounded-full p-1 
+}
+
+
+/*  */
+/* Other Payment Group selectbutton */
+.other-payment-group .p-selectbutton{
+    /* width: max-content; */
+    /* justify-content: space-between; */
+    @apply gap-4 flex-nowrap w-full
+}
+
+.other-payment-group .p-togglebutton-content{
+    @apply grid justify-items-center w-full
+}
+
+.other-payment-group .p-selectbutton .p-togglebutton {
+    border-radius: 10px !important;
+    @apply w-[5rem] h-[5rem] shadow-md !text-gray-400 p-3 !bg-slate-50;
+}
+
+.other-payment-group .p-togglebutton.p-togglebutton-checked {
+    @apply !bg-purple-200 !text-white;
+}
+
+.other-payment-group .p-togglebutton.p-togglebutton-checked::before {
+    @apply !bg-purple-500
+}
+
+.other-payment-group .p-togglebutton .pi:before {
+    @apply text-3xl bg-slate-300 p-2 rounded-full
+}
+
+.other-payment-group .p-togglebutton.p-togglebutton-checked .pi:before {
+    @apply !text-white text-3xl bg-purple-300
+}
+
+.other-payment-group .p-togglebutton.p-togglebutton-checked .beneficiary-img {
+    @apply bg-purple-200 rounded-full p-1 
+}
+
+
+
+
+.transfer-amount input{
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.transfer-form .p-inputgroupaddon{
+    font-weight: bold;
+}
+
+
+
+
+/* Action Buttons */
+.action-button-group .p-selectbutton{
+    width: 100%;
+    /* width: max-content; */
+    justify-content: space-between;
+    padding: 5px;
+    @apply gap-4
+}
+
+.action-button-group .p-togglebutton-content{
+    @apply grid justify-items-start w-full
+}
+
+.action-button-group .p-selectbutton .p-togglebutton {
+    border-radius: 10px !important;
+    @apply w-[5.5rem] shadow-md !text-gray-400;
+}
+
+.action-button-group .p-togglebutton.p-togglebutton-checked {
+    @apply !bg-purple-300 !text-white;
+}
+
+.action-button-group .p-togglebutton.p-togglebutton-checked::before {
+    @apply !bg-primary
+}
+
+.action-button-group .p-togglebutton .pi:before {
+    @apply text-3xl
+}
+
+.action-button-group .p-togglebutton.p-togglebutton-checked .pi:before {
+    @apply !text-white text-3xl
+}
+
+
+/* action-button */
+.action-btn-link.router-link-active{
+
+}
+
+.p-button.action-button{
+    /* border: 5px solid #000 !important; */
+    @apply !h-20 !w-20 !border-4 border-purple-300
+}
+
+.p-button.action-button:active{
+    @apply border-purple-500
+}
+
+
+.p-fieldset-legend{
+    @apply !bg-purple-200 active:!bg-purple-100
+}
+
+.p-timeline-event-opposite{
+    display: none;
+}
+
+
+.p-dataview-content{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 200px !important;
+}
+
+/* .p-fieldset-legend{
+    background: ;
+} */
+
+
+.p-button-icon-only.p-button-secondary{
+    @apply !shadow-md !border-2 !border-purple-300
+}
+
+.p-button-icon-only .pi{
+    @apply !text-black
+}
+
+
+/* .p-button-lg .addBeneficiaryIcon.p-button-icon {
+    @apply text-3xl bg-slate-400 rounded-full py-3 px-[0.9rem] !text-white   
+}
+
+
+.p-button.primary.active.background{
+    @apply bg-primary
+} */
+
+
+/* .p-togglebutton.p-togglebutton-checked {
+    background-color: #4CAF50 !important;
+}
+
+.p-togglebutton.p-togglebutton-checked .p-togglebutton-box {
+    background-color: #4CAF50 !important;
+}
+
+.p-togglebutton.p-togglebutton-checked:not(.p-disabled):hover {
+    background-color: #45a049 !important;
+} */
+
+
+.sdfs{
+    @apply bg-red-300 bg-blue-300 bg-orange-300;
+    background: #3b82f6;
+    background: #ef4444;
+    /* background: #ab6329; */
+    background: #fb923c;
+    background: #fca5a5 #93c5fd #fdba74;
+}
